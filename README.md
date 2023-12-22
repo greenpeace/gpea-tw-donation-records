@@ -14,4 +14,4 @@ This is a Python program designed to generate donation records for Taiwan.
 	 - html_path = 'files/test.html' # Give a .html file as temporary file
 	 - output_pdf_path = 'files/test.pdf' # Give a .pdf file as Output
 	 - output_path = 'files/output.txt' # The log file of translated data
- 2. In the command line, execute **`py  csv2pdf.py`**
+ 2. In the command line, execute **`py csv2pdf.py`**
