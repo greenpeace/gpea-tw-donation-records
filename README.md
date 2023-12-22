@@ -1,11 +1,10 @@
 # gpea-tw-donation-records
 This is a Python program designed to generate donation records for Taiwan.
 
-**Input**: A csv file
-**Output**: A pdf file
-**Process**: Read the .csv file, and convert it to the HTML format to draw the table, and then save it as a .pdf file
-
-**Note**: In this file, we use wkhtmltopdf, please download and install it: https://wkhtmltopdf.org/downloads.html
+ - **Input**: A csv file
+ - **Output**: A pdf file
+ - **Process**: Read the .csv file, and convert it to the HTML format to draw the table, and then save it as a .pdf file
+ - **Note**: In this file, we use wkhtmltopdf, please download and install it: https://wkhtmltopdf.org/downloads.html
 
 
 ## Steps of using it
