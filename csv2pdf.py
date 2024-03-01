@@ -72,7 +72,7 @@ with open(csv_path, newline='', encoding='utf-8') as csvfile:
                 f.writelines(str(donor_id) + ', ' + donor_name + '\n')
                 donor_name = donor_name[:1] #只擷取第一個字
                 
-        if donate_date != '捐款日期':
+        if donate_date != '捐款日期' and donate_date.lower() != 'date':
             message_body += string.Template("""<tr>
                                     <td>${donate_date}</td><td>${donor_id}</td><td>${donor_name}</td><td>${donor_title}</td><td>${donate_amount}</td>
                                 </tr>""").substitute(locals())
